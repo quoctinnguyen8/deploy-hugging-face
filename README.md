@@ -38,7 +38,7 @@ Một số lưu ý:
 
     Trong đó `app_file` chỉ ra file bắt đầu chạy dự án
 
-- **Bắt buộc**: Chỉnh sửa source code cho gradio chạy ở port `7860`
+- **Bắt buộc**: Chỉnh sửa source code cho gradio chạy ở port `7860`, server_name là `0.0.0.0`
 
 6. Tiến hành upload source code, có thể chọn nhiều file/thư mục cùng lúc.
 
@@ -58,4 +58,5 @@ Một số lưu ý:
         PYTHONPATH=/app/src
         ```
     
+
 8. Chờ quá trình build hoàn tất và tận hưởng thành quả
