@@ -58,3 +58,4 @@ Một số lưu ý:
         PYTHONPATH=/app/src
         ```
     
+8. Chờ quá trình build hoàn tất và tận hưởng thành quả
