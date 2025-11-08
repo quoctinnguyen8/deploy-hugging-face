@@ -18,9 +18,10 @@ Một số lưu ý:
 ![alt text](create-space.png)
 
 5. Tiến hành thiết lập môi trường
-- Nếu dự án sử dụng file `pyproject.toml` thì cần tạo thêm file `requirements.txt` tương ứng vì Hugging Face chưa hỗ trợ, `requirements.txt` là bắt buộc (nhờ AI chuyển đổi)
 
-- Thêm các dòng sau đây vào **đầu** file `README.md`:
+    5.1 Nếu dự án sử dụng file `pyproject.toml` thì cần tạo thêm file `requirements.txt` tương ứng vì Hugging Face chưa hỗ trợ, `requirements.txt` là bắt buộc (nhờ AI chuyển đổi)
+
+    5.2 Thêm các dòng sau đây vào **đầu** file `README.md`:
 
     ```Markdown
     ---
@@ -37,7 +38,7 @@ Một số lưu ý:
 
     Trong đó `app_file` chỉ ra file bắt đầu chạy dự án
 
-- **Bắt buộc**: Chỉnh sửa source code cho gradio chạy ở port `7860`
+    5.3 **Bắt buộc**: Chỉnh sửa source code cho gradio chạy ở port `7860`
 
 6. Tiến hành upload source code, có thể chọn nhiều file/thư mục cùng lúc.
 
